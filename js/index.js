@@ -44,7 +44,7 @@ function getNumber(){
         
     }
    else{
-       wonGuessing.innerHTML=`You Have lose!!! Random Number Was ${ranNumber} total win= ${winCount} total loss= ${lossCount}`;
+       wonGuessing.innerHTML=`You Have lose!!! Random Number Was ${ranNumber} `;
        lossCount++;
        document.getElementById("loseCount").innerText=lossCount;
        
@@ -62,7 +62,7 @@ function generateNUmber(){
 
 
 
-//document.getElementById("loseCount").innerText = totalCount
+// document.getElementById("loseCount").innerText = totalCount
 
 
 
