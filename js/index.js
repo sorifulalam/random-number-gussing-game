@@ -38,13 +38,13 @@ function getNumber(){
 
     if(getNumber == ranNumber){
         
-        alert("Congratulations You Have Won This Game", wonGuessing.innerHTML=`You Have Won!!! Random Number Was ${ranNumber}`);
+        alert("Congratulations You Have Won This Game", wonGuessing.innerText =`You Have Won!!! Random Number Was - ${ranNumber}`);
         winCount++;
         document.getElementById("wonCount").innerText=winCount;
         
     }
    else{
-       wonGuessing.innerHTML=`You Have lose!!! Random Number Was ${ranNumber} `;
+       wonGuessing.innerHTML=`You Have lose!!! Random Number Was - ${ranNumber} `;
        lossCount++;
        document.getElementById("loseCount").innerText=lossCount;
        

@@ -9,13 +9,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
-<body>
+<body class="bg-dark" >
     <div class="">
         <div class=" header">
             <h1 id="heading" class="text-center mt-5 head p-5 ">Randome Number Guessing And play Game</h1> 
         </div>
     </div>
-    <div class="container">
+    <div class="container  p-3">
         <div class="row mb-5">
             <div class="col-md-6 first-col">
               <div class="sector-1" id="cont-1"> 
@@ -34,10 +34,10 @@
         </div>
 
         <input type="number" id="getNumber" class="form-control mt-5" placeholder="Please Fixed Your Number">
-        <button id="action" class="btn btn-success mt-2" onclick="getNumber()" >Test</button>
+        <button id="action" class="btn btn-secondary mt-2 " onclick="getNumber()" >Test</button>
         
-        <button id="action" class="btn btn-success mt-2" onclick="generateNew()" >Generate new random number</button>
-        <button id="action" class="btn btn-success mt-2" onclick="Clear()" >Refresh</button>
+        <button id="action" class="btn btn-primary mt-2" onclick="generateNew()" >Generate new random number</button>
+        <button id="action" class="btn btn-warning mt-2" onclick="Clear()" >Refresh</button>
         
        
     </div>
